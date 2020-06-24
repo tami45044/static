@@ -14,6 +14,14 @@
           target="_blank"
           class="button--green">About</a>
         <a
+          href="https://vercel.com/dashboard"
+          target="_blank"
+          class="button--green">Vercel</a>
+        <a
+          href="test"
+          target="_blank"
+          class="button--green">Test</a>
+        <a
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green">Documentation</a>
@@ -21,6 +29,7 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey">GitHub</a>
+          <test-logo/>
       </div>
     </div>
   </section>
@@ -28,10 +37,12 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import TestLogo from '~/components/TestLogo.vue'
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    TestLogo,
   }
 }
 </script>
