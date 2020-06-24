@@ -3,12 +3,16 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        static
+        static tami project
       </h1>
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
       <div class="links">
+        <a
+          href="about"
+          target="_blank"
+          class="button--green">About</a>
         <a
           href="https://nuxtjs.org/"
           target="_blank"
